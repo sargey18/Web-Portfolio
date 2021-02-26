@@ -815,6 +815,16 @@ div.overlay-nav li a:hover::before {
 }
 
 
+.project-card-stats {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(255, 7, 110);
+}
+
 
 /*javascript projects*/
 
@@ -1353,6 +1363,8 @@ div.overlay-nav li a:hover::before {
 }
 
 
+
+
 /*contact section end*/
 
 
@@ -1374,6 +1386,14 @@ footer span a{
 
 footer span a:hover{
     text-decoration: underline;
+}
+
+footer .fa-github {
+    color: orangered;
+}
+
+footer .fa-linkedin {
+    color: #0077B5;
 }
 
 /*footer section end*/
