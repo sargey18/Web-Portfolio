@@ -1037,11 +1037,9 @@ div.overlay-nav li a:hover::before {
 }
 
 .outerEl {
-    width: calc(25% - 20px);
+    width: calc(30% - 20px);
     text-align: center;
-    border-radius: 6px;
-    padding: 20px 25px;
-    margin: 0 20px;
+    padding: 20px 0;
 }
 
 .innerEl{
